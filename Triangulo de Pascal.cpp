@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+//calcula o valor de uma determinada posição no Triângulo de Pascal.
 void printPascal(int n)
 {
 
@@ -12,7 +12,7 @@ void printPascal(int n)
 		for (int i = 1; i < (n - line + 1); i++){
 			cout << " ";
 		}
-
+		// O primeiro valor em uma linha é sempre 1
 		for (int i = 1; i <= line; i++)
 		{
 			cout << C << " ";
@@ -22,7 +22,7 @@ void printPascal(int n)
 		cout << "\n";
 	}
 }
-
+//O programa solicita que o usuário insira uma linha e assim é dado o valor correspondente.
 int main()
 {
 	int n;
