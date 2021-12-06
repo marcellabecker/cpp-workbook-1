@@ -4,7 +4,7 @@ using namespace std;
 
 int main (int argc, char **argv){  
     string code_line;
-    ifstream code_file("programa Autoimpressão.cpp");  
+    ifstream code_file("programa_autoimpressao.cpp");  
 
     while (getline(code_file, code_line))
         cout << code_line << endl;
